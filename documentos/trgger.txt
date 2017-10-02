@@ -1,0 +1,16 @@
+CREATE TRIGGER deletado
+         AFTER DELETE
+            ON usuario
+      FOR EACH ROW
+BEGIN
+    INSERT INTO recicle (
+                            id,
+                            nome,
+                            email
+                        )
+                        VALUES (
+                            old.id,
+                            old.nome,
+                            old.email
+                        );
+END;

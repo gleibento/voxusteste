@@ -1,0 +1,12 @@
+senha do banco = 53462100mmn2
+ususario = id1710939_root
+dbname = id1710939_medicina
+host = localhost
+
+url do phpMyadmin = https://databases-auth.000webhost.com/index.php
+ususario = id1710939_root
+senha do banco = 53462100mmn2
+
+
+painel de adiministração = login gleibento@gmail.com, senha = 1234567890
+do sistema.
